@@ -1,0 +1,17 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.sourcePaths": [
+    "Oops_in_Java",
+    "Basic_java",
+    "Advance_java/Singly_linkedlist",
+    "Advance_java"
+  ],
+  "java.configuration.runtimes": [
+    
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk-17.0.7.0.7-5.fc38.x86_64",
+      "default": true
+    },
+  ]
+}

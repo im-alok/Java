@@ -1,0 +1,18 @@
+public class LL {
+    private Node Head;
+    private Node tail;
+    private int size=0;
+    private class Node { // Class is Private so that no one can access from outside
+        private int data;
+        private Node next;
+    }
+
+    private Node(int data){
+        this.data=data;
+    }
+
+    private Node(int data,Node next){
+        this.data=data;
+        this.next=next;
+    }
+}
