@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class TowerOfHanoi {
     public static void main(String[] args) throws Exception {
-        // write your code here
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int t1= sc.nextInt();
-        int t2= sc.nextInt();
-        int t3= sc.nextInt();
-        
-        toh(n,t1,t2,t3);
+        try (// write your code here
+        Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int t1= sc.nextInt();
+            int t2= sc.nextInt();
+            int t3= sc.nextInt();
+            
+            toh(n,t1,t2,t3);
+        }
         
     }
 
