@@ -1,3 +1,5 @@
+package HackerRank;
+
 import java.io.*;
 import java.util.*;
 
